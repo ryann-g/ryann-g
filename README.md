@@ -29,7 +29,7 @@
 | Project | Live Demo | Stack | Description |
 |---------|-----------|-------|-------------|
 | **Makerswap** | [makerswap-nu.vercel.app (Archived)  ↗](https://makerswap-nu.vercel.app/) | React · Supabase · Vercel | Local Makerspace & Hardware Exchange platform enabling student component trading at MSU-IIT |
-| **AgentFlow** | [agent-flow.app (Beta) ↗](https://agent-flow.app/) | Next.js · Supabase · Stripe · Resend · Vercel· Sentry· TailwindCSS | Intelligent agent-driven CRM & workflow automation platform for lead management with real-time pipeline tracking and automated outreach |
+| **AgentFlow** | [agent-flow.app (Beta) ↗](https://agent-flow.app/) | Next.js · Supabase · Pay-mongo · Resend · Vercel· Sentry· TailwindCSS | Intelligent agent-driven CRM & workflow automation platform for lead management with real-time pipeline tracking and automated outreach |
 
 ---
 
