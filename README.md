@@ -1,38 +1,48 @@
-<div align="center">
+# Ryan Gabriel
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3500&pause=1000&color=0E75B6&center=true&vCenter=true&random=false&width=560&lines=Hi+%F0%9F%91%8B%2C+I'm+Ryan+Gabriel;Software+Engineer;CPE+%40+MSU-IIT" alt="Typing SVG" />
+Software Engineer / cpe @ MSU-IIT
 
-<br/>
+I design and build web applications end-to-end, from database schema and API design through to deployment and monitoring, with a strong preference for clean architecture over quick fixes. My primary stack is Next.js, Supabase, Spring Boot, and PostgreSQL, and I focus on building systems that remain reliable under real-world load rather than ones that only work in a controlled demo.
 
-[![Profile Views](https://komarev.com/ghpvc/?username=dream-creator&color=0e75b6&style=flat-square&label=Profile+Views)](https://github.com/dream-creator)
-[![GitHub Followers](https://img.shields.io/github/followers/dream-creator?label=Followers&style=flat-square&color=0e75b6&logo=github)](https://github.com/dream-creator)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://ph.linkedin.com/in/ryan-gabriel01)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ryan.gabrielle01@gmail.com)
+### Tech Stack
 
-</div>
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | TypeScript, JavaScript, Java, Python, SQL |
+| **Frontend** | React, Next.js, Tailwind CSS, shadcn/ui, Vite, Motion, React Hook Form, Zod |
+| **Backend** | Spring Boot, Supabase, Firebase, Resend |
+| **Database** | PostgreSQL, Firestore |
+| **Infrastructure** | Vercel, Cloudflare Workers, GitHub Actions |
+| **Payments** | PayMongo |
+| **Testing** | Playwright, Vitest, Lighthouse CI |
+| **Tooling** | ESLint, Prettier, Husky, Commitlint, Sentry |
+
+<details>
+<summary><b>More about how I work</b></summary>
+<br>
+
+I approach open source the same way I approach production systems: contribute to tools you actually use, and fix things upstream rather than patching around them. I have submitted pull requests to [Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max), the Avalonia-based Linux GUI for managing fan curves and battery limits on my Acer Nitro V15, and I curate an [Awesome Linux Software](https://github.com/dream-creator/Awesome-Linux-Software) list. I also volunteer as a developer on [BetterIligan](https://betteriligancity.org), a civic tech initiative digitizing local governance data for the City of Iligan, where I have contributed security hardening, SEO improvements, and infrastructure fixes alongside the core team.
+
+Outside of code, I spend time tuning my own development environment, Linux internals, networking, and audio, because a fast, reliable workstation compounds in value over years of shipping. I am also working through Google's Project Management Professional Certificate to build a more structured approach to scope, sequencing, and delivery, since most of what slows a project down has less to do with code and more to do with planning.
+
+</details>
+
+<br>
+
+### Building
+
+**[AgentFlow](https://agent-flow.app)**
+An agent-driven CRM and workflow automation platform for solo real estate agents, with lead capture, automated outreach via Resend, pipeline tracking, and PayMongo-integrated payments in a single lightweight tool. Built with Next.js, Supabase, and Vercel.
+
+**[BetterIligan](https://betteriligancity.org)** *(volunteer)*
+A civic tech initiative digitizing local governance data, policies, and public services for the City of Iligan, Northern Mindanao. Contributing security headers, SEO fixes, and infrastructure improvements.
+
+**[MakerSwap](https://makerswap-nu.vercel.app)** *(archived)*
+A peer-to-peer hardware exchange for MSU-IIT's student makerspace, enabling students to trade components and parts locally. Built with React, TypeScript, Vite, Tailwind CSS, shadcn/ui, and Firebase.
+
+**[Flowguard500](https://github.com/dream-creator/Flowguard500)**
+A Scilab-based predictive maintenance system for the FlowGuard 5000 centrifugal pump, with polynomial calibration, exponential degradation modelling, bisection failure prediction, and a real-time health dashboard.
 
 ---
 
-## About Me
-
-> Computer Engineering student at **Mindanao State University – Iligan Institute of Technology (MSU-IIT)**, specializing in **software engineering** and **scalable system architecture**.
-
-- Currently building **[Makerswap](https://makerswap-nu.vercel.app/)** (student hardware exchange) and **[AgentFlow](https://agent-flow.app/)** (Intelligent CRM & workflow automation)
-- Deepening expertise in **system optimization**, **microservices architecture**, and **cloud-native development**
-- Ask me about **React**, **Next.js**, **Supabase**, **Firebase**, or **system design**
-- Passionate about **open-source technologies** and building user-centric, impactful applications
-
----
-
-## Featured Projects
-
-| Project | Live Demo | Stack | Description |
-|---------|-----------|-------|-------------|
-| **Makerswap** | [makerswap-nu.vercel.app (Archived)  ↗](https://makerswap-nu.vercel.app/) | React · Supabase · Vercel | Local Makerspace & Hardware Exchange platform enabling student component trading at MSU-IIT |
-| **AgentFlow** | [agent-flow.app (Beta) ↗](https://agent-flow.app/) | Next.js · Supabase · Pay-mongo · Resend · Vercel· Sentry· TailwindCSS | Intelligent agent-driven CRM & workflow automation platform for lead management with real-time pipeline tracking and automated outreach |
-
----
-
-<div align="center">
-  <i>"First, solve the problem. Then, write the code."</i>
-</div>
+[LinkedIn](https://ph.linkedin.com/in/ryan-gabriel01) · [Email](mailto:ryan.gabrielle01@gmail.com)
