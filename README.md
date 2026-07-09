@@ -6,16 +6,21 @@ I design and build web applications end-to-end, from database schema and API des
 
 ### Tech Stack
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | TypeScript, JavaScript, Java, Python, SQL |
-| **Frontend** | React, Next.js, Tailwind CSS, shadcn/ui, Vite, Motion, React Hook Form, Zod |
-| **Backend** | Spring Boot, Supabase, Firebase, Resend |
-| **Database** | PostgreSQL, Firestore |
-| **Infrastructure** | Vercel, Cloudflare Workers, GitHub Actions |
-| **Payments** | PayMongo |
-| **Testing** | Playwright, Vitest, Lighthouse CI |
-| **Tooling** | ESLint, Prettier, Husky, Commitlint, Sentry |
+**Languages:** TypeScript, JavaScript, Java, Python, SQL
+
+**Frontend:** React, Next.js, Tailwind CSS, shadcn/ui, Vite, Motion, React Hook Form, Zod
+
+**Backend:** Spring Boot, Supabase, Firebase, Resend
+
+**Database:** PostgreSQL, Firestore
+
+**Infrastructure:** Vercel, Cloudflare Workers, GitHub Actions
+
+**Payments:** PayMongo
+
+**Testing:** Playwright, Vitest, Lighthouse CI
+
+**Tooling:** ESLint, Prettier, Husky, Commitlint, Sentry
 
 <details>
 <summary><b>More about how I work</b></summary>
