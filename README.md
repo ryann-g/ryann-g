@@ -20,7 +20,7 @@ I design and build web applications end-to-end, from database schema and API des
 <details>
 <summary><b>More about how I work</b></summary>
 
-I approach open source the same way I approach production systems: contribute to tools you actually use, and fix things upstream rather than patching around them. I have submitted pull requests to [Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max), the Avalonia-based Linux GUI for managing fan curves and battery limits on my Acer Nitro V15, and I curate an [Awesome Linux Software](https://github.com/dream-creator/Awesome-Linux-Software) list. I also volunteer as a developer on [BetterIligan](https://betteriligancity.org), a civic tech initiative digitizing local governance data for the City of Iligan, where I have contributed security hardening, SEO improvements, and infrastructure fixes alongside the core team.
+I approach open source the same way I approach production systems: contribute to tools you actually use, and fix things upstream rather than patching around them. I have submitted pull requests to [Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max), the Avalonia-based Linux GUI for managing fan curves and battery limits on my Acer Nitro V15, and I curate an [Awesome Linux Software](https://github.com/ryann-g/Awesome-Linux-Software) list. I also volunteer as a developer on [BetterIligan](https://betteriligancity.org), a civic tech initiative digitizing local governance data for the City of Iligan, where I have contributed security hardening, SEO improvements, and infrastructure fixes alongside the core team.
 
 Outside of code, I spend time tuning my own development environment, Linux internals, networking, and audio, because a fast, reliable workstation compounds in value over years of shipping. I am also working through Google's Project Management Professional Certificate to build a more structured approach to scope, sequencing, and delivery, since most of what slows a project down has less to do with code and more to do with planning.
 
@@ -37,7 +37,7 @@ A civic tech initiative digitizing local governance data, policies, and public s
 **[MakerSwap](https://makerswap-nu.vercel.app)** *(archived)*
 A peer-to-peer hardware exchange for MSU-IIT's student makerspace, enabling students to trade components and parts locally. Built with React, TypeScript, Vite, Tailwind CSS, shadcn/ui, and Firebase.
 
-**[Flowguard500](https://github.com/dream-creator/Flowguard500)**
+**[Flowguard500](https://github.com/ryann-g/Flowguard500)**
 A Scilab-based predictive maintenance system for the FlowGuard 5000 centrifugal pump, with polynomial calibration, exponential degradation modelling, bisection failure prediction, and a real-time health dashboard.
 
 ---
