@@ -17,8 +17,8 @@ controlled demo.
   (my daily-driver laptop is an Acer Nitro V15), and I curate
   [Awesome Linux Software](https://github.com/ryann-g/Awesome-Linux-Software).
 - **Ship through tests and CI, not hope.** Unit through end-to-end suites, wired into
-  GitHub Actions before anything deploys. AgentFlow, for example, currently runs 140
-  automated tests at ~97% statement coverage.
+  GitHub Actions before anything deploys. AgentFlow, for example, runs 503 automated
+  tests at ~90% statement coverage.
 - **Own my environment.** Linux internals, networking, and audio tooling on my own
   hardware is where hobby overlaps with discipline. That habit is how projects like
   bp1pro-linux start.
@@ -31,6 +31,7 @@ controlled demo.
 **[Initial Development of Smart Greenhouse System with Automated Nebulization and AI-Based Plant Growth Monitoring](https://ieeexplore.ieee.org/abstract/document/11569284)**
 IEEE HNICEM (International Conference on Humanoid, Nanotechnology, Information Technology,
 Communication and Control, Environment, and Management), Cebu · 2025 · `co-authored`
+
 A closed-loop smart greenhouse with automated nebulization driven by pH/humidity sensing
 and YOLOv8-based growth monitoring at 87.97% accuracy. It produced higher and more
 uniform lettuce growth than the uncontrolled setup.
@@ -57,7 +58,7 @@ payments in a single lightweight tool. Built with Next.js, Supabase, and Vercel.
 **[BetterIligan](https://betteriligancity.org)** `volunteer`
 A civic tech initiative digitizing local governance data, policies, and public services
 for the City of Iligan, Northern Mindanao. Contributing security hardening, SEO
-improvements, and infrastructure fixes.
+improvements, and infrastructure fixes, with 4 pull requests merged.
 
 **[bp1pro-linux](https://github.com/ryann-g/bp1pro-linux)**
 Unofficial Linux control (GUI/TUI/CLI) for Baseus Bass BP1 Pro earbuds: ANC, EQ, spatial
