@@ -1,45 +1,93 @@
 # Ryan Gabriel
 
-Software Engineer / cpe @ MSU-IIT
+Software Engineer · CPE student @ MSU-IIT
 
-I design and build web applications end-to-end, from database schema and API design through to deployment and monitoring, with a strong preference for clean architecture over quick fixes. My primary stack is Next.js, Supabase, Spring Boot, and PostgreSQL, and I focus on building systems that remain reliable under real-world load rather than ones that only work in a controlled demo.
+I design and build web applications end-to-end — from database schema and API design
+through to deployment and monitoring — with a preference for clean architecture over
+quick fixes. My primary stack is Next.js, Supabase, Spring Boot, and PostgreSQL, and I
+build for systems that hold up under real-world load, not ones that only work in a
+controlled demo.
+
+### How I Work
+
+- **Fix things upstream.** I contribute to tools I actually use — pull requests to
+  [Next.js](https://github.com/vercel/next.js), [freeCodeCamp](https://github.com/freeCodeCamp),
+  [Qwen Code](https://github.com/QwenLM/qwen-code), and
+  [Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max)
+  (my daily-driver laptop is an Acer Nitro V15) — and I curate
+  [Awesome Linux Software](https://github.com/ryann-g/Awesome-Linux-Software).
+- **Ship through tests and CI, not hope.** Unit through end-to-end suites, wired into
+  GitHub Actions before anything deploys — AgentFlow currently runs 140 automated tests
+  at ~97% statement coverage.
+- **Own my environment.** Linux internals, networking, and audio tooling on my own
+  hardware is where hobby overlaps with discipline — that habit is how projects like
+  bp1pro-linux start.
+- **Manage the plan, not just the code.** Working through Google's Project Management
+  Professional Certificate because scope, sequencing, and delivery slip more often than
+  code does.
+
+### Research
+
+**[Initial Development of Smart Greenhouse System with Automated Nebulization and AI-Based Plant Growth Monitoring](https://ieeexplore.ieee.org/abstract/document/11569284)**
+IEEE HNICEM (International Conference on Humanoid, Nanotechnology, Information Technology,
+Communication and Control, Environment, and Management), Cebu · 2025 · `co-authored`
+A closed-loop smart greenhouse — automated nebulization driven by pH/humidity sensing,
+plant growth monitored by a YOLOv8 segmentation model at 87.97% accuracy — that produced
+higher and more uniform lettuce growth than the uncontrolled setup.
 
 ### Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | TypeScript, JavaScript, Java, Python, SQL |
+| **Languages** | TypeScript, JavaScript, Java, Python, SQL, Scilab |
 | **Frontend** | React, Next.js, Tailwind CSS, shadcn/ui, Vite, Motion, React Hook Form, Zod |
-| **Backend** | Spring Boot, Supabase, Firebase, Resend |
+| **Backend** | Spring Boot, Supabase, Firebase |
 | **Database** | PostgreSQL, Firestore |
 | **Infrastructure** | Vercel, Cloudflare Workers, GitHub Actions |
-| **Payments** | PayMongo |
 | **Testing** | Playwright, Vitest, Lighthouse CI |
-| **Tooling** | ESLint, Prettier, Husky, Commitlint, Sentry |
-
-<details>
-<summary><b>More about how I work</b></summary>
-
-I approach open source the same way I approach production systems: contribute to tools you actually use, and fix things upstream rather than patching around them. I have submitted pull requests to [Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max), the Avalonia-based Linux GUI for managing fan curves and battery limits on my Acer Nitro V15, and I curate an [Awesome Linux Software](https://github.com/ryann-g/Awesome-Linux-Software) list. I also volunteer as a developer on [BetterIligan](https://betteriligancity.org), a civic tech initiative digitizing local governance data for the City of Iligan, where I have contributed security hardening, SEO improvements, and infrastructure fixes alongside the core team.
-
-Outside of code, I spend time tuning my own development environment, Linux internals, networking, and audio, because a fast, reliable workstation compounds in value over years of shipping. I am also working through Google's Project Management Professional Certificate to build a more structured approach to scope, sequencing, and delivery, since most of what slows a project down has less to do with code and more to do with planning.
-
-</details>
+| **Tooling & Services** | ESLint, Prettier, Husky, Commitlint, Sentry, Resend, PayMongo |
 
 ### Building
 
 **[AgentFlow](https://agent-flow.app)**
-An agent-driven CRM and workflow automation platform for solo real estate agents, with lead capture, automated outreach via Resend, pipeline tracking, and PayMongo-integrated payments in a single lightweight tool. Built with Next.js, Supabase, and Vercel.
+An agent-driven CRM and workflow automation platform for solo real estate agents, with
+lead capture, automated outreach via Resend, pipeline tracking, and PayMongo-integrated
+payments in a single lightweight tool. Built with Next.js, Supabase, and Vercel.
 
-**[BetterIligan](https://betteriligancity.org)** *(volunteer)*
-A civic tech initiative digitizing local governance data, policies, and public services for the City of Iligan, Northern Mindanao. Contributing security headers, SEO fixes, and infrastructure improvements.
+**[BetterIligan](https://betteriligancity.org)** `volunteer`
+A civic tech initiative digitizing local governance data, policies, and public services
+for the City of Iligan, Northern Mindanao. Contributing security hardening, SEO
+improvements, and infrastructure fixes.
 
-**[MakerSwap](https://makerswap-nu.vercel.app)** *(archived)*
-A peer-to-peer hardware exchange for MSU-IIT's student makerspace, enabling students to trade components and parts locally. Built with React, TypeScript, Vite, Tailwind CSS, shadcn/ui, and Firebase.
+**[bp1pro-linux](https://github.com/ryann-g/bp1pro-linux)**
+Unofficial Linux control (GUI/TUI/CLI) for Baseus Bass BP1 Pro earbuds — ANC, EQ, spatial
+audio, gestures, battery. Reverse-engineered the SPP protocol with frame-level evidence;
+Python stdlib only.
+
+**[swm.nc2](https://github.com/ryann-g/swm.nc2)**
+Windows Server 2016 + Windows 10/11 lab automation — DHCP, domain join, AD objects,
+GPO shell, lightweight RDP — with an offline mock test suite.
+
+<details>
+<summary><b>Archive</b> — earlier builds</summary>
+
+**[PROTECT](https://github.com/ryann-g/PROTECT_MVP)** *(research)*
+An ESP32 health-monitoring unit for elderly care — vitals trigger on-screen status, a
+buzzer, and SMS alerts to caregivers, with a live fleet site whose public view
+deliberately exposes no vitals. Embedded C++.
+
+**[MakerSwap](https://github.com/ryann-g/makerswap)** *(archived)*
+A peer-to-peer hardware exchange for MSU-IIT's student makerspace, enabling students to
+trade components and parts locally. Built with React, TypeScript, Vite, Tailwind CSS,
+shadcn/ui, and Firebase.
 
 **[Flowguard500](https://github.com/ryann-g/Flowguard500)**
-A Scilab-based predictive maintenance system for the FlowGuard 5000 centrifugal pump, with polynomial calibration, exponential degradation modelling, bisection failure prediction, and a real-time health dashboard.
+A Scilab-based predictive maintenance system for the FlowGuard 5000 centrifugal pump,
+with polynomial calibration, exponential degradation modelling, bisection failure
+prediction, and a real-time health dashboard.
+
+</details>
 
 ---
 
-[LinkedIn](https://ph.linkedin.com/in/ryan-gabriel01) · [Email](mailto:ryan.gabrielle01@gmail.com)
+[LinkedIn](https://ph.linkedin.com/in/ryan-gabriel01) · [Portfolio](https://ryan-g.vercel.app) · [Email](mailto:ryan.gabrielle01@gmail.com)
